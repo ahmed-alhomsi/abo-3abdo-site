@@ -110,9 +110,27 @@
             color: #FFFFFF;
         }
 
-        .portfolio-image {
-            max-width: 635px;
-            max-height: 422px;
+        #we-are-unique h3 {
+            max-width: 18ch;
+            margin: 20px auto;
+        }
+
+        .black-overlay {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: #1111117e;
+        }
+
+        .header-text {
+            margin: auto auto;
+            transform: translateX(-20vw);
+            padding: 20px;
+        }
+
+        .header-text p {
+            font-size: 30px;
+            color: #ffffff;
         }
     </style>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LPXKY11PQH"></script>
@@ -222,7 +240,13 @@
 
             <!-- Slide 1 -->
             <div class="slide kenburns" class="bg-overlay"
-                style="background-image:url(./images/sections/better\ header.webp);" loading="lazy">
+                style="background-image:url(./images/sections/better\ header.jpg);" loading="lazy">
+                <div class="black-overlay"></div>
+                <div class="header-text">
+                    <p>
+                        Good food, Good mood
+                    </p>
+                </div>
                 <!-- style="background-image:url(https://drive.google.com/uc?id=1erVKmIaKVc4Uh2t1pGDrw-Ifuvsc9ro_);" (attribute to div above before being changed) -->
                 <!-- <div class="bg-overlay"></div> -->
             </div>
@@ -240,22 +264,22 @@
                 <div class="col-md-3 text-center m-b-30">
                     <div class="counter"><span data-speed="1000" data-refresh-interval="50" data-to="287000"
                             data-from="0" data-seperator="true"></span></div>
-                    <h2>Satisfied customers in about 6 years</h2>
+                    <h3>Satisfied customers in about 6 years</h3>
                 </div>
                 <div class="col-md-3 text-center m-b-30">
                     <div class="counter"> <span data-speed="1000" data-refresh-interval="50" data-to="120" data-from="0"
                             data-seperator="true"></span></div>
-                    <h2>Delicious meals are prepared daily</h2>
+                    <h3>Delicious meals are prepared daily</h3>
                 </div>
                 <div class="col-md-3 text-center m-b-30">
                     <div class="counter"> <span data-speed="1000" data-refresh-interval="50" data-to="15" data-from="0"
                             data-seperator="true"></span> </div>
-                    <h2>Areas covered for quick delivery</h2>
+                    <h3>Areas covered for quick delivery</h3>
                 </div>
                 <div class="col-md-3 text-center m-b-30">
                     <div class="counter"> <span data-speed="1000" data-refresh-interval="50" data-to="26" data-from="0"
                             data-seperator="true"></span> </div>
-                    <h2>Years of experience and we're going on</h2>
+                    <h3>Years of experience and we're going on</h3>
                 </div>
             </div>
             <!--End: Simple counters-->
@@ -315,7 +339,7 @@
         </section>
 
         <section id="our-menu" class="text-light p-t-50 p-b-50 m-t-50"
-            data-bg-parallax="images/sections/menu-background.webp">
+            data-bg-parallax="images/sections/menu-background.jpg">
             <div class="container">
                 <div class="text-center">
                     <h1 class="text-md m-r-10">Discover Our Menu</h1>
@@ -442,7 +466,7 @@
                 <div class="portfolio-item img-zoom" data-animate="zoomIn">
                     <div class="portfolio-item-wrap">
                         <div class="portfolio-image">
-                            <img src="./images/meals/Raw Meat.webp" alt="Raw Meat" loading="lazy">
+                            <img src="./images/meals/Raw-Meat.webp" alt="Raw Meat" loading="lazy">
                         </div>
                         <div class="portfolio-description">
                             <h1>Raw Meat</h1>
